@@ -57,25 +57,25 @@ For those with knowledge with Python programming, the following parameters may b
 
 Parameter	Description
 
-fthres	The file threshold that determines the amount of readings per text file before transfer to a Gateway Host.
+fthres:	The file threshold that determines the amount of readings per text file before transfer to a Gateway Host.
 
-volt_range	The voltage range for generated voltage sensor readings.
+volt_range:	The voltage range for generated voltage sensor readings.
 
-volt_offset	The offset value with which voltage readings can vary. 
+volt_offset:	The offset value with which voltage readings can vary. 
 
-amp_range	The electrical current range for generated current sensor readings.
+amp_range:	The electrical current range for generated current sensor readings.
 
-amp_offset	The offset value with which current readings can vary. 
+amp_offset:	The offset value with which current readings can vary. 
 
-temp_range	The temperature range for generated temperature sensor readings.
+temp_range:	The temperature range for generated temperature sensor readings.
 
-temp_offset	The offset value with which temperature readings can vary. 
+temp_offset:	The offset value with which temperature readings can vary. 
 
-hum_range	The humidity range for generated humidity sensor readings.
+hum_range:	The humidity range for generated humidity sensor readings.
 
-hum_offset	The offset value with which humidity readings can vary. 
+hum_offset:	The offset value with which humidity readings can vary. 
 
-waitt	The time a Gateway host will wait before it transfers its files to the Backend host.
+waitt:	The time a Gateway host will wait before it transfers its files to the Backend host.
 
  
 

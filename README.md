@@ -51,7 +51,7 @@ With the network active, terminal windows can now be launched for each virtual h
 
 The Python programs will simulate the generation and acquisition of data according to the following two procedures:
 
-![alt text](https://github.com/gerhard-brown/virtual-smart-distribution-grids/blob/main/Python%20Procedures.jpg?raw=true)
+![alt text](https://github.com/gerhard-brown/virtual-smart-distribution-grids/blob/main/Python%20Procedures.JPG?raw=true)
 
 For those with knowledge with Python programming, the following parameters may be adjusted:
 

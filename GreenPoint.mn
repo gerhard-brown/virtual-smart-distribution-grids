@@ -1,0 +1,764 @@
+{
+    "application": {
+        "dpctl": "",
+        "ipBase": "10.0.0.0/8",
+        "netflow": {
+            "nflowAddId": "0",
+            "nflowTarget": "",
+            "nflowTimeout": "600"
+        },
+        "openFlowVersions": {
+            "ovsOf10": "1",
+            "ovsOf11": "0",
+            "ovsOf12": "0",
+            "ovsOf13": "0"
+        },
+        "sflow": {
+            "sflowHeader": "128",
+            "sflowPolling": "30",
+            "sflowSampling": "400",
+            "sflowTarget": ""
+        },
+        "startCLI": "1",
+        "switchType": "ovs",
+        "terminalType": "xterm"
+    },
+    "controllers": [
+        {
+            "opts": {
+                "controllerProtocol": "tcp",
+                "controllerType": "remote",
+                "hostname": "CCC",
+                "remoteIP": "172.17.0.7",
+                "remotePort": 6633
+            },
+            "x": "163.0",
+            "y": "112.0"
+        },
+        {
+            "opts": {
+                "controllerProtocol": "tcp",
+                "controllerType": "remote",
+                "hostname": "GpointC",
+                "remoteIP": "172.17.0.6",
+                "remotePort": 6633
+            },
+            "x": "481.0",
+            "y": "52.0"
+        },
+        {
+            "opts": {
+                "controllerProtocol": "tcp",
+                "controllerType": "remote",
+                "hostname": "MPointC",
+                "remoteIP": "172.17.0.5",
+                "remotePort": 6633
+            },
+            "x": "1017.0",
+            "y": "59.0"
+        }
+    ],
+    "hosts": [
+        {
+            "number": "15",
+            "opts": {
+                "hostname": "PwoodR",
+                "ip": "10.0.0.20",
+                "nodeNum": 15,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "832.0",
+            "y": "503.0"
+        },
+        {
+            "number": "3",
+            "opts": {
+                "hostname": "MPGate",
+                "ip": "10.0.0.1",
+                "nodeNum": 3,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "1016.0",
+            "y": "131.0"
+        },
+        {
+            "number": "9",
+            "opts": {
+                "hostname": "ClydeRd",
+                "ip": "10.0.0.14",
+                "nodeNum": 9,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "50.0",
+            "y": "519.0"
+        },
+        {
+            "number": "11",
+            "opts": {
+                "hostname": "DollHse",
+                "ip": "10.0.0.16",
+                "nodeNum": 11,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "254.0",
+            "y": "511.0"
+        },
+        {
+            "number": "16",
+            "opts": {
+                "hostname": "RocketS",
+                "ip": "10.0.0.21",
+                "nodeNum": 16,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "742.0",
+            "y": "503.0"
+        },
+        {
+            "number": "8",
+            "opts": {
+                "hostname": "CRoyal",
+                "ip": "10.0.0.13",
+                "nodeNum": 8,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "1213.0",
+            "y": "507.0"
+        },
+        {
+            "number": "10",
+            "opts": {
+                "hostname": "3AnchorB",
+                "ip": "10.0.0.15",
+                "nodeNum": 10,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "155.0",
+            "y": "512.0"
+        },
+        {
+            "number": "4",
+            "opts": {
+                "hostname": "backend",
+                "ip": "10.0.0.3",
+                "nodeNum": 4,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "54.0",
+            "y": "205.0"
+        },
+        {
+            "number": "17",
+            "opts": {
+                "hostname": "GPGate",
+                "ip": "10.0.0.2",
+                "nodeNum": 17,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "478.0",
+            "y": "128.0"
+        },
+        {
+            "number": "12",
+            "opts": {
+                "hostname": "VillaV",
+                "ip": "10.0.0.17",
+                "nodeNum": 12,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "548.0",
+            "y": "504.0"
+        },
+        {
+            "number": "13",
+            "opts": {
+                "hostname": "GrangerB",
+                "ip": "10.0.0.18",
+                "nodeNum": 13,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "453.0",
+            "y": "513.0"
+        },
+        {
+            "number": "14",
+            "opts": {
+                "hostname": "BwaterStps",
+                "ip": "10.0.0.19",
+                "nodeNum": 14,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "640.0",
+            "y": "503.0"
+        },
+        {
+            "number": "7",
+            "opts": {
+                "hostname": "GreenBay",
+                "ip": "10.0.0.12",
+                "nodeNum": 7,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "355.0",
+            "y": "513.0"
+        },
+        {
+            "number": "17",
+            "opts": {
+                "hostname": "SomersHosp",
+                "ip": "10.0.0.22",
+                "nodeNum": 17,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "935.0",
+            "y": "503.0"
+        },
+        {
+            "number": "18",
+            "opts": {
+                "hostname": "RbnsDock",
+                "ip": "10.0.0.23",
+                "nodeNum": 18,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "1126.0",
+            "y": "509.0"
+        },
+        {
+            "number": "3",
+            "opts": {
+                "hostname": "OldJail",
+                "ip": "10.0.0.11",
+                "nodeNum": 3,
+                "nodeType": "Host",
+                "sched": "host"
+            },
+            "x": "1035.0",
+            "y": "506.0"
+        }
+    ],
+    "links": [
+        {
+            "dest": "S3",
+            "opts": {},
+            "src": "backend"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "S3",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s4"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s5"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s6"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s7"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s8"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s9"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s10"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s11"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s12"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s13"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s14"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s15"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "s16"
+        },
+        {
+            "dest": "s4",
+            "opts": {},
+            "src": "ClydeRd"
+        },
+        {
+            "dest": "s5",
+            "opts": {},
+            "src": "3AnchorB"
+        },
+        {
+            "dest": "s6",
+            "opts": {},
+            "src": "DollHse"
+        },
+        {
+            "dest": "s7",
+            "opts": {},
+            "src": "GreenBay"
+        },
+        {
+            "dest": "s8",
+            "opts": {},
+            "src": "GrangerB"
+        },
+        {
+            "dest": "s9",
+            "opts": {},
+            "src": "BwaterStps"
+        },
+        {
+            "dest": "s10",
+            "opts": {},
+            "src": "PwoodR"
+        },
+        {
+            "dest": "s11",
+            "opts": {},
+            "src": "RocketS"
+        },
+        {
+            "dest": "s12",
+            "opts": {},
+            "src": "SomersHosp"
+        },
+        {
+            "dest": "s13",
+            "opts": {},
+            "src": "RbnsDock"
+        },
+        {
+            "dest": "s14",
+            "opts": {},
+            "src": "VillaV"
+        },
+        {
+            "dest": "s15",
+            "opts": {},
+            "src": "CRoyal"
+        },
+        {
+            "dest": "s16",
+            "opts": {},
+            "src": "OldJail"
+        },
+        {
+            "dest": "s5",
+            "opts": {},
+            "src": "s4"
+        },
+        {
+            "dest": "s15",
+            "opts": {},
+            "src": "s13"
+        },
+        {
+            "dest": "s16",
+            "opts": {},
+            "src": "s12"
+        },
+        {
+            "dest": "s12",
+            "opts": {},
+            "src": "s10"
+        },
+        {
+            "dest": "s11",
+            "opts": {},
+            "src": "s9"
+        },
+        {
+            "dest": "s14",
+            "opts": {},
+            "src": "s8"
+        },
+        {
+            "dest": "s7",
+            "opts": {},
+            "src": "s6"
+        },
+        {
+            "dest": "S1",
+            "opts": {},
+            "src": "MPGate"
+        },
+        {
+            "dest": "s4",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s5",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s6",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s7",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s8",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s14",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s9",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s11",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s10",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s12",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s16",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s13",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "s15",
+            "opts": {},
+            "src": "S2"
+        },
+        {
+            "dest": "S2",
+            "opts": {},
+            "src": "GPGate"
+        }
+    ],
+    "switches": [
+        {
+            "number": "3",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "S1",
+                "netflow": "0",
+                "nodeNum": 3,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "default"
+            },
+            "x": "813.0",
+            "y": "198.0"
+        },
+        {
+            "number": "5",
+            "opts": {
+                "controllers": [
+                    "GpointC",
+                    "MPointC",
+                    "CCC"
+                ],
+                "hostname": "S3",
+                "netflow": "0",
+                "nodeNum": 5,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "default"
+            },
+            "x": "163.0",
+            "y": "204.0"
+        },
+        {
+            "number": "15",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s15",
+                "nodeNum": 15,
+                "switchType": "default"
+            },
+            "x": "1211.0",
+            "y": "421.0"
+        },
+        {
+            "number": "11",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s11",
+                "nodeNum": 11,
+                "switchType": "default"
+            },
+            "x": "741.0",
+            "y": "422.0"
+        },
+        {
+            "number": "7",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s7",
+                "nodeNum": 7,
+                "switchType": "default"
+            },
+            "x": "352.0",
+            "y": "428.0"
+        },
+        {
+            "number": "13",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s13",
+                "nodeNum": 13,
+                "switchType": "default"
+            },
+            "x": "1114.0",
+            "y": "423.0"
+        },
+        {
+            "number": "12",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s12",
+                "nodeNum": 12,
+                "switchType": "default"
+            },
+            "x": "919.0",
+            "y": "422.0"
+        },
+        {
+            "number": "5",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s5",
+                "nodeNum": 5,
+                "switchType": "default"
+            },
+            "x": "158.0",
+            "y": "433.0"
+        },
+        {
+            "number": "14",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s14",
+                "nodeNum": 14,
+                "switchType": "default"
+            },
+            "x": "551.0",
+            "y": "424.0"
+        },
+        {
+            "number": "10",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s10",
+                "nodeNum": 10,
+                "switchType": "default"
+            },
+            "x": "823.0",
+            "y": "423.0"
+        },
+        {
+            "number": "16",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s16",
+                "nodeNum": 16,
+                "switchType": "default"
+            },
+            "x": "1019.0",
+            "y": "422.0"
+        },
+        {
+            "number": "5",
+            "opts": {
+                "controllers": [
+                    "GpointC",
+                    "MPointC",
+                    "CCC"
+                ],
+                "hostname": "S2",
+                "netflow": "0",
+                "nodeNum": 5,
+                "sflow": "0",
+                "switchIP": "",
+                "switchType": "default"
+            },
+            "x": "477.0",
+            "y": "203.0"
+        },
+        {
+            "number": "6",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s6",
+                "nodeNum": 6,
+                "switchType": "default"
+            },
+            "x": "251.0",
+            "y": "431.0"
+        },
+        {
+            "number": "9",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s9",
+                "nodeNum": 9,
+                "switchType": "default"
+            },
+            "x": "640.0",
+            "y": "423.0"
+        },
+        {
+            "number": "8",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s8",
+                "nodeNum": 8,
+                "switchType": "default"
+            },
+            "x": "453.0",
+            "y": "425.0"
+        },
+        {
+            "number": "4",
+            "opts": {
+                "controllers": [
+                    "MPointC",
+                    "GpointC",
+                    "CCC"
+                ],
+                "hostname": "s4",
+                "nodeNum": 4,
+                "switchType": "default"
+            },
+            "x": "51.0",
+            "y": "436.0"
+        }
+    ],
+    "version": "2"
+}
